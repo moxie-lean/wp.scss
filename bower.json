@@ -1,0 +1,23 @@
+{
+  "name": "wp.scss",
+  "homepage": "https://github.com/moxie-leean/wp.scss",
+  "authors": [
+    "Crisoforo Gaspar Hernandez <hello@crisoforo.com>"
+  ],
+  "description": "Sass partial with the default WordPress styles",
+  "main": "_wp.scss",
+  "keywords": [
+    "sass",
+    "mixin",
+    "wp",
+    "wordpress"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
