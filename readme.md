@@ -8,6 +8,14 @@
 You can install the file with bowe easily by typing this command on your
 terminal: 
 
+### With NPM
+
+```bash
+npm install wp.scss --save
+```
+
+### With bower
+
 ```bash
 bower install wp.scss
 ```
