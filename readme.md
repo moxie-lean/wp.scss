@@ -8,10 +8,20 @@
 You can install the file with bowe easily by typing this command on your
 terminal: 
 
+
+# After the installation 
+
+You only need to include the path of the sass file into your entry point
+file that is compiled from sass for example: 
+
+**style.scss**
+
 ### With NPM
 
 ```bash
 npm install wp.scss --save
+
+@import "./node_modules/wp.scss/wp";
 ```
 
 ### With bower
@@ -19,12 +29,6 @@ npm install wp.scss --save
 ```bash
 bower install wp.scss
 ```
-
-You only need to include the path of the sass file into your entry point
-file that is compiled from sass for example: 
-
-**style.scss**
-
 ```sass
 @import "./bower_components/wp.scss/wp";
 ```
