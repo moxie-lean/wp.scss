@@ -2,10 +2,10 @@
 Reference: https://codex.wordpress.org/CSS
 -------------------------------------------------------------- */
 %margin-alignleft {
-  @include margin(5px 20px 20px 0);
+ margin: 5px 20px 20px 0;
 }
 %margin-alignright {
-  @include margin(5px 0 20px 20px);
+ margin: 5px 0 20px 20px;
 }
 .alignnone {
   @extend %margin-alignleft;
